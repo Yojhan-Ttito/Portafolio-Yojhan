@@ -1,77 +1,85 @@
-/* Reset de estilos básicos */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yojhan Ttito | Ingeniero de Datos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Yojhan Ttito</h1>
+      <p>Ingeniero de Datos | Especialista en BI, Power Apps y Automatización</p>
+    </div>
+  </header>
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
-}
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre Mí</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px 0;
-}
+  <main>
+    <section id="sobre-mi">
+      <div class="container">
+        <h2>Sobre Mí</h2>
+        <p>Soy un ingeniero de sistemas especializado en datos, con experiencia en Power BI, Power Apps y soluciones en la nube. Me apasiona construir herramientas que mejoren la toma de decisiones en las organizaciones.</p>
+      </div>
+    </section>
 
-header {
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 40px 0;
-  text-align: center;
-}
+    <section id="experiencia">
+      <div class="container">
+        <h2>Experiencia</h2>
+        <ul>
+          <li>
+            <h3>Empresa XYZ</h3>
+            <p><strong>Ingeniero de Datos</strong> | Enero 2023 - Presente</p>
+            <p>Responsable de la implementación de soluciones de inteligencia de negocios utilizando Power BI y automatización de procesos con Power Automate.</p>
+          </li>
+          <!-- Agrega más experiencias según sea necesario -->
+        </ul>
+      </div>
+    </section>
 
-nav {
-  background-color: #34495e;
-}
+    <section id="proyectos">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <ul>
+          <li>
+            <h3>Dashboard de Seguridad (Power BI)</h3>
+            <p>Visualización de KPIs en el sector petróleo.</p>
+          </li>
+          <li>
+            <h3>App de Reportes (Power Apps)</h3>
+            <p>Automatización de recolección de datos en campo.</p>
+          </li>
+          <li>
+            <h3>Flujos Automáticos (Power Automate)</h3>
+            <p>Conexión entre SharePoint y correo corporativo.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
+    <section id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>Email: <a href="mailto:yojhan.ttito@email.com">yojhan.ttito@email.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yojhan-ttito" target="_blank">/yojhan-ttito</a></p>
+      </div>
+    </section>
+  </main>
 
-nav ul li {
-  margin: 0 15px;
-}
+  <footer>
+    <div class="container">
+      <p>© 2025 Yojhan Ttito</p>
+    </div>
+  </footer>
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 15px 0;
-  display: block;
-}
-
-nav ul li a:hover {
-  background-color: #2c3e50;
-}
-
-section {
-  padding: 40px 0;
-  border-bottom: 1px solid #ccc;
-}
-
-h2 {
-  margin-bottom: 20px;
-  color: #2c3e50;
-}
-
-ul {
-  list-style: none;
-}
-
-ul li {
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #2c3e50;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
+  <script src="script.js"></script>
+</body>
+</html>
